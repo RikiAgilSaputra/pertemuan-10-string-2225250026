@@ -1,3 +1,4 @@
+print ("NORMALISASI DATA MAHASISWA")
 def normalisasi_nama (nama):
     return " ".join(nama.strip().split()).title()
 def buat_inisial (nama):
